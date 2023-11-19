@@ -1,9 +1,8 @@
-<p align="center"> 
-<img src="fssim_doc/img/fssim_logo.png">
-</p>
+# Formula Student Simulation/Simulator
 
+## Dependencies
 
-# Depencices
+### Compile
 
 - pcl_ros
 
@@ -17,7 +16,10 @@
 
 - rqt-gui-py
 
+### Runtime
+
 - (system) libyaml-cpp-dev
+
 ---
 
 # FSSIM 
@@ -68,12 +70,5 @@ We added two cameras into simulator and changed the ground so that it is more si
 # Example
 <p align="center"> 
 <img src="fssim_doc/img/fssim_demo.gif" width="700" />
-</p>
-
-A note: this is a public copy of a private version. The public version might have some internal functionality removed.
-FSSIM was developed by
-
-<p align="center"> 
-<img src="fssim_doc/img/BITFSD Racing Team.png">
 </p>
 
