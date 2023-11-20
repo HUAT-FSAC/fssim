@@ -5,20 +5,14 @@
 ### Compile
 
 - pcl_ros
-
 - tf
-
 - rqt-gui
-
 - gazebo-msgs
-
 - gazebo-ros
-
 - rqt-gui-py
-
-### Runtime
-
 - (system) libyaml-cpp-dev
+- ros-melodic-rviz
+- python-shapely
 
 ---
 
