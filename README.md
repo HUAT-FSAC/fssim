@@ -1,7 +1,7 @@
 # Formula Student Simulation/Simulator
 
 ## Dependencies
-install w apt
+install with apt, (some of them may need a prefix of "ros-melodic")
 
 - pcl_ros
 - tf
@@ -11,7 +11,14 @@ install w apt
 - rqt-gui-py
 - (system) libyaml-cpp-dev
 - ros-melodic-rviz
-- python-shapely
+- python-shapelycatkin
+
+# FAQ
+
+- Installed all the deps, but there's still missing header files like "gazebo-utils":
+  ![image](https://github.com/HUAT-FSAC/fssim/assets/51020139/d92fb11a-f56b-4888-952f-dac5143456b4)
+  Refer to https://github.com/bitfsd/fssim/issues/1, the solve is to build the workspace with `catkin build`, not with the original `catkin_make`.
+
 
 ---
 
